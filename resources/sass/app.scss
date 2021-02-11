@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    ul{
+        width: 100vw;
+        background-color: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        li{
+            list-style: none;
+            text-transform: uppercase;
+            margin: 0 20px;
+            a{
+                color: white !important;
+    
+                &:focus{
+                    color: blue !important;
+                }
+            }
+        }
+
+    }
+    
+}

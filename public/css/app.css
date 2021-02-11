@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container ul {
+  width: 100vw;
+  background-color: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+}
+
+.container ul li {
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+.container ul li a {
+  color: white !important;
+}
+
+.container ul li a:focus {
+  color: blue !important;
+}
+
