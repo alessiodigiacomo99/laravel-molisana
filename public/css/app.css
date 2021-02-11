@@ -11,7 +11,7 @@
 }
 
 .container ul {
-  width: 100vw;
+  width: 100%;
   background-color: lightgreen;
   display: flex;
   justify-content: center;
@@ -23,13 +23,58 @@
   list-style: none;
   text-transform: uppercase;
   margin: 0 20px;
+  font-weight: 900;
+  font-size: 1.3rem;
 }
 
 .container ul li a {
   color: white !important;
+  text-decoration: none;
 }
 
 .container ul li a:focus {
-  color: blue !important;
+  color: #000091 !important;
+}
+
+#site_main {
+  background-image: url(/images/fondo-pag-speciali.jpg?06a79f19fbb4489a17e2dff67ce37137);
+  overflow-x: hidden;
+}
+
+#site_main h2 {
+  color: #000091;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px 0;
+  text-shadow: 1px 1px #000091;
+}
+
+#site_main .pasta {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#site_main .pasta .formato {
+  position: relative;
+  flex-basis: calc(100% / 3.5);
+  margin: 20px;
+  cursor: pointer;
+}
+
+#site_main .pasta .formato img:first-child {
+  width: 100%;
+}
+
+#site_main .pasta .formato .forchetta {
+  display: none;
+  width: 50px;
+}
+
+#site_main .pasta .formato:hover .forchetta {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 

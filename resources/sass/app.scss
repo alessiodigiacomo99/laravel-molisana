@@ -2,13 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
+
+$primary : rgb(0, 0, 145);
+
 .container{
     display: flex;
     align-items: center;
     flex-direction: column;
     ul{
-        width: 100vw;
+        width: 100%;
         background-color: lightgreen;
         display: flex;
         justify-content: center;
@@ -18,15 +22,54 @@
             list-style: none;
             text-transform: uppercase;
             margin: 0 20px;
+            font-weight: 900;
+            font-size: 1.3rem;
             a{
                 color: white !important;
+                text-decoration:  none;
     
                 &:focus{
-                    color: blue !important;
+                    color: $primary !important;
                 }
             }
         }
 
+    }
+}
+
+#site_main{
+    background-image: url("../img/fondo-pag-speciali.jpg");
+    overflow-x: hidden;
+    h2{
+        color: $primary;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px 0;
+        text-shadow: 1px 1px $primary;
+    }
+    .pasta{
+        display: flex;
+        flex-wrap: wrap;
+        .formato{
+            position: relative;
+            flex-basis: calc(100% / 3.5);
+            margin: 20px;
+            cursor: pointer;
+            img:first-child{
+                width: 100%;
+            }
+            .forchetta{
+                display: none;
+                width: 50px;
+            }
+            &:hover .forchetta{
+                display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
     }
     
 }
