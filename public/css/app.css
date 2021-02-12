@@ -33,7 +33,7 @@
 }
 
 .container ul li a:focus {
-  color: #000091 !important;
+  color: #0d2240 !important;
 }
 
 #site_main {
@@ -42,11 +42,11 @@
 }
 
 #site_main h2 {
-  color: #000091;
+  color: #0d2240;
   text-align: center;
   text-transform: uppercase;
   padding: 20px 0;
-  text-shadow: 1px 1px #000091;
+  text-shadow: 1px 1px #0d2240;
 }
 
 #site_main .pasta {
@@ -88,5 +88,64 @@
   position: absolute;
   top: 0;
   left: 0;
+}
+
+#site_footer {
+  display: flex;
+  padding: 200px 0;
+  width: 60%;
+  margin: auto;
+  justify-content: space-around;
+}
+
+#site_footer img {
+  height: 100px;
+}
+
+#site_footer .footer_links {
+  display: flex;
+}
+
+#site_footer .footer_links div {
+  margin: 10px 20px;
+}
+
+#site_footer .footer_links div ul li {
+  margin: 10px;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+#site_footer .footer_links div ul li a {
+  color: grey;
+  text-decoration: none;
+}
+
+#site_footer .footer_links div ul li:first-child {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+#site_footer .footer_links div ul li:first-child a {
+  color: #0d2240;
+}
+
+#site_footer ul:last-child {
+  margin-top: 20px;
+}
+
+#site_footer ul:last-child li {
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+#site_footer ul:last-child li a {
+  color: grey;
+  text-decoration: none;
+}
+
+#site_footer ul:last-child li a span {
+  font-weight: 900;
+  text-transform: uppercase;
 }
 

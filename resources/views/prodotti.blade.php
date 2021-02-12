@@ -1,12 +1,9 @@
 @extends('layout.app')
-@section('header')
-@include('partials.header')
-@endsection
 @section('style')
     <style>
-        ul li:nth-child(2) a{
-            color: rgb(0, 0, 145) !important;
-            border-bottom: 5px solid rgb(0, 0, 145);
+        .container ul li:nth-child(2) a{
+            color: #0d2240 !important;
+            border-bottom: 5px solid #0d2240;
         }
     </style>
 @endsection

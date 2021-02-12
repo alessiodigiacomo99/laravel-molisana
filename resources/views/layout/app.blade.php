@@ -9,7 +9,8 @@
     @yield('style')
 </head>
 <body>
-    @yield('header')
+    @include('partials.header')
     @yield('main')
+    @include('partials.footer')
 </body>
 </html>
