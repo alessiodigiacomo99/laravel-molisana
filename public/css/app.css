@@ -78,3 +78,15 @@
   transform: translate(-50%, -50%);
 }
 
+#site_main .pasta .formato .scheda {
+  display: none;
+  padding: 10px;
+}
+
+#site_main .pasta .formato:hover .scheda {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+

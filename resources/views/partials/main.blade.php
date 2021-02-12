@@ -6,6 +6,10 @@
                 <div class="formato">
                     <img src="{{ $pasta['src'] }}" alt="">
                     <img class="forchetta" src="{{ asset('img/icon.svg') }}" alt="">
+                    <div class="scheda">
+                        <div>{{ $pasta['titolo'] }}</div>
+                        <div>Cottura : {{ $pasta['cottura'] }}</div>
+                    </div>
                 </div>
                 <!-- /.formato -->
             @endif
@@ -18,6 +22,10 @@
                 <div class="formato">
                     <img src="{{ $pasta['src'] }}" alt="">
                     <img class="forchetta" src="{{ asset('img/icon.svg') }}" alt="">
+                    <div class="scheda">
+                        <div>{{ $pasta['titolo'] }}</div>
+                        <div>Cottura : {{ $pasta['cottura'] }}</div>
+                    </div>
                 </div>
                 <!-- /.formato -->
             @endif
@@ -30,6 +38,10 @@
                 <div class="formato">
                     <img src="{{ $pasta['src'] }}" alt="">
                     <img class="forchetta" src="{{ asset('img/icon.svg') }}" alt="">
+                    <div class="scheda">
+                        <div>{{ $pasta['titolo'] }}</div>
+                        <div>Cottura : {{ $pasta['cottura'] }}</div>
+                    </div>
                 </div>
                 <!-- /.formato -->
             @endif
