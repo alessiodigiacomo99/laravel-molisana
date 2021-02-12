@@ -8,5 +8,5 @@
     </style>
 @endsection
 @section('main')
-    <div>contatti</div>
+    @include('partials.content')
 @endsection

@@ -149,3 +149,23 @@
   text-transform: uppercase;
 }
 
+.contatti {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contatti div {
+  width: calc(100% / 3);
+  overflow: hidden;
+}
+
+.contatti div img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.contatti div img:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+

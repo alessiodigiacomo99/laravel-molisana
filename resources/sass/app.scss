@@ -133,3 +133,21 @@ $primary : #0d2240;;
         }
     }
 }
+
+.contatti{
+    display: flex;
+    flex-wrap: wrap;
+    div{
+        width: calc(100% / 3);
+        overflow: hidden;
+        img{
+            width: 100%;
+            cursor: pointer;
+            &:hover{
+                transform: scale(1.1);
+                transition: all 0.4s;
+            }
+        }
+
+    }
+}
